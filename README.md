@@ -3,6 +3,7 @@
 
 Login Api integrated with spring security and uses Java Mail Service.
 Simply sends an email with link to activate account and the link expires in 15 mins.
+This is a project in testing so it has hibernate ddl property as create.
 
 The applications has many rest api, as follows:
 
@@ -27,7 +28,7 @@ Certain things to consider, configure your email by going into <strong>manage yo
 there enable two step verification and create an app password that will be given in properties files as followed-  
 &nbsp;     **spring.mail.password = created app password**.
 
-Please diable any anti virus while sending email.
+Please disable any anti virus while sending email.
 
 ---
 ### Configuring MySql:
